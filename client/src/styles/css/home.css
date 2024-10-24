@@ -1,0 +1,14 @@
+@import url("../root.css");
+
+#main{
+    background-image: linear-gradient(#F8F4FF,#EFF0F4);
+    padding: 0  16px;
+}
+
+#data{
+    padding: 8px 0px;
+    color: var(--cor-textoTitulo);
+    font-weight: 700;
+    font-size: 16px;
+    list-style: 25.6px;
+}

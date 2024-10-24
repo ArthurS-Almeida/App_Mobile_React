@@ -1,0 +1,31 @@
+@import url("../root.css");
+
+#cabecalho-perfil{
+    padding: 22px 0 22px 0;
+    display: flex;
+    gap: 16px;
+}
+
+#container-foto-perfil{
+    width: 57px; height: 57px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#container-foto-perfil > img {
+    width: 100%;
+}
+
+#container-texto-nome{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: var(--cor-textoTitulo);
+}
+
+#container-texto-observacao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-textoObservacao);
+
+}

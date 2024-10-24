@@ -1,0 +1,124 @@
+@import url('../root.css');
+
+#card-remoto{
+    min-width: 328px; min-height: 170px;
+    background-color: var(--cor-card);
+    border-radius: 16px;
+}
+
+#card-remoto-perfil{
+    border-radius: 16px 16px  0 0 ;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#card-remoto-perfil-container{
+    width: 32px; height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    overflow: hidden;
+
+    img{
+        width: 32px;
+    }
+}
+
+#card-remoto-texto-container{
+    display: flex;
+    gap: 16px;
+}
+
+#remoto-texto-nome{
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: var(--cor-textoTitulo);
+}
+
+#remoto-texto-observacao{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    img{
+        width: 16px;
+        height: 10.67px;
+    }
+    
+    p{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19.2px;
+        color: var(--cor-textoObservacao);
+    }
+}
+
+#remoto-batepapo{
+    padding: 9.33px;
+    height: 15px;
+    background-color: var(--cor-fundoBatepapo);
+    border-radius: 50px;
+}
+
+#perfil-horario{
+    padding: 9px 16px;
+    border-top: 1px solid var(--cor-BordaCard);
+    
+    h1{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 19.2px;
+        color: var(--cor-textoTitulo);
+
+    }
+}
+
+#perfil-conteiner-botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 16px 16px;
+}
+
+.perfil-botoes{
+    min-width: 139px; min-width: 48px;
+    padding: 13px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+    span{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22.4px;
+    }
+}
+
+#perfil-botao1{
+    background-color: var(--cor-botaoCard);
+    color: var(--cor-textoBotao);
+    width: 170px;
+}
+
+#perfil-botao2{
+    background-color: transparent;
+    border: 1px solid var(--cor-bordaBotao);
+    width: 170px;
+}
+
+#perfil-botao3{
+    width: 100%;
+    background-color: var(--cor-botaoCard-Endereco);
+    color: var(--cor-textoBotao);
+}
+
+#consultas{
+    display: grid;
+    gap: 16px;
+
+}

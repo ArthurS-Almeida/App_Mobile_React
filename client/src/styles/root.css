@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: var(--fonte-principal);
+    border: 0;
+    margin: 0; padding: 0;
+}
+
+:root{
+    /* Fontes */
+    --fonte-principal: "Montserrat", sans-serif;
+
+    /* Cores */
+    --cor-textoTitulo: #464646;
+    --cor-textoObservacao: #A3A3A3;
+    --cor-textoBotao: #fff;
+
+    --cor-card: #ffffff;
+    --cor-BordaCard: #e0e0e0;
+    --cor-botaoCard: #ffb050;
+    --cor-bordaBotao: #ECECEC;
+    --cor-botaoCard-Endereco: #4894ff;
+    --cor-fundoBatepapo: #F6F6F6;
+}
